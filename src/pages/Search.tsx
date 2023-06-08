@@ -18,6 +18,10 @@ const Search: React.FC = () => {
     setResultKeyword(keyword);
   }
 
+  function handleReset() {
+    console.log('reset');
+  }
+
   return (
     <div className='bg-gray-200 py-10 px-4 md:px-0 min-h-screen'>
       <div className='bg-white max-w-sm mx-auto p-4 min-h-[89vh]'>
@@ -25,6 +29,7 @@ const Search: React.FC = () => {
           keyword={keyword}
           onChange={handleChange}
           onClick={handleClick}
+          onReset={handleReset}
         ></SearchForm>
         {data ? (
           <SearchResult
