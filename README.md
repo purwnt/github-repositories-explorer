@@ -4,9 +4,9 @@
 
 The application is pretty simple. Users can search github username up to 5 users and explore their repositories.
 
-Its using Github API [https://developer.github.com/v3/](https://developer.github.com/v3/)
+Its using Github API v3
 
-[Demo](https://purwnt.github.io/github-repositories-explorer)
+Demo [https://purwnt.github.io/github-repositories-explorer](https://purwnt.github.io/github-repositories-explorer)
 
 Tech Stack:
 
@@ -44,12 +44,16 @@ cp .env.example .env
 yarn install
 ```
 
-##### `yarn dev`
+```
+yarn dev
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-##### `yarn build`
+```
+yarn build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -61,9 +65,16 @@ Your app is ready to be deployed!
 
 #### Unit Testing
 
-`yarn test:unit`
+Run unit testing using Vitest
+
+```
+yarn test:unit
+```
 
 #### End-to-End Testing
 
-`yarn test:e2e`
+Run end to end testing using playwright and chromium browser
 
+```
+yarn test:e2e
+```
