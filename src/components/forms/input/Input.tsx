@@ -1,4 +1,4 @@
-import { ChangeEvent, KeyboardEventHandler } from 'react';
+import { ChangeEvent } from 'react';
 
 interface InputProps {
   value?: string;
