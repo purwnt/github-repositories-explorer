@@ -8,6 +8,18 @@ Its using Github API [https://developer.github.com/v3/](https://developer.github
 
 [Demo](https://purwnt.github.io/github-repositories-explorer)
 
+Tech Stack:
+
+- React
+- Typescript
+- React Query
+- Tailwind
+- Heroicons
+- Axios
+- Vite
+- Vitest
+- Playwright
+
 ## Data model
 
 The application contains the following models:
@@ -44,4 +56,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Testing
+
+#### Unit Testing
+
+`yarn test:unit`
+
+#### End-to-End Testing
+
+`yarn test:e2e`
 
